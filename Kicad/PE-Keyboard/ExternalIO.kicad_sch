@@ -1,0 +1,17 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid cbe35a11-acb8-4e45-8eb5-a005296b1a73)
+
+  (paper "A4")
+
+  (title_block
+    (title "PE-Keyboard")
+    (date "2023-12-22")
+    (rev "A.01")
+    (comment 1 "Macropad type keyboard")
+  )
+
+  (lib_symbols
+  )
+
+)

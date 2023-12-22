@@ -1,5 +1,90 @@
 (kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid 5d1ef8f8-2a4f-49b7-9153-0654485ba926)
+
   (paper "A4")
-  (lib_symbols)
-  (symbol_instances)
+
+  (title_block
+    (title "PE-Keyboard")
+    (date "2023-12-22")
+    (rev "A.01")
+    (comment 1 "Macropad type keyboard")
+    (comment 2 "{$Sheetname}")
+  )
+
+  (lib_symbols
+  )
+
+
+  (sheet (at 72.39 121.92) (size 29.21 30.48) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 24e32f94-4e98-44c7-a696-74208e6f57ef)
+    (property "Sheetname" "WirelessIO" (at 72.39 121.2084 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "WirelessIO.kicad_sch" (at 72.39 152.9846 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "PE-Keyboard"
+        (path "/5d1ef8f8-2a4f-49b7-9153-0654485ba926" (page "5"))
+      )
+    )
+  )
+
+  (sheet (at 38.1 83.82) (size 29.21 30.48) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 56c53eaa-f652-4dcd-8cee-1b8d504346fe)
+    (property "Sheetname" "KeyboardMatrix" (at 38.1 83.1084 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "KeyboardMatrix.kicad_sch" (at 38.1 114.8846 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "PE-Keyboard"
+        (path "/5d1ef8f8-2a4f-49b7-9153-0654485ba926" (page "3"))
+      )
+    )
+  )
+
+  (sheet (at 72.39 83.82) (size 29.21 30.48) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 8b5e33bc-3bf2-437f-907e-618b900d5127)
+    (property "Sheetname" "Microcontroller" (at 72.39 83.1084 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "Microcontroller.kicad_sch" (at 72.39 114.8846 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "PE-Keyboard"
+        (path "/5d1ef8f8-2a4f-49b7-9153-0654485ba926" (page "2"))
+      )
+    )
+  )
+
+  (sheet (at 38.1 121.92) (size 29.21 30.48) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 92c71bdb-e35a-4a9f-97b7-fc4e08d60ce3)
+    (property "Sheetname" "ExternalIO" (at 38.1 121.2084 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "ExternalIO.kicad_sch" (at 38.1 152.9846 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "PE-Keyboard"
+        (path "/5d1ef8f8-2a4f-49b7-9153-0654485ba926" (page "4"))
+      )
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
 )
