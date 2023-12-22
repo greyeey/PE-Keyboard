@@ -2,4 +2,5 @@
   (version 7)
   (lib (name "Kailh-Hot-Swap")(type "KiCad")(uri "${KIPRJMOD}/Footprints/Kailh.pretty")(options "")(descr ""))
   (lib (name "RP2040")(type "KiCad")(uri "${KIPRJMOD}/Footprints/RP2040_minimal.pretty")(options "")(descr ""))
+  (lib (name "PE-Keyboard")(type "KiCad")(uri "${KIPRJMOD}/Footprints")(options "")(descr ""))
 )
